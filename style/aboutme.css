@@ -1,0 +1,60 @@
+.aboutme-section {
+    background-color: #FD883D;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 60px;
+    padding: 55px;
+}
+
+.aboutme-img-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 25px;
+    margin: 10px;
+}
+
+.aboutme-img-container img {
+    width: 3rem;
+}
+
+.aboutme-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.aboutme-content div {
+    width: 50%;
+}
+
+.aboutme-content img {
+    width: 20%;
+    border-radius: 30%;
+}
+
+.aboutme-content h1 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 4rem;
+}
+
+.h1-colored {
+    font-family: 'Unbounded', sans-serif;
+    color: #553566;
+}
+
+.aboutme-content div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.aboutme-content p {
+    font-size: 1.5rem;
+    line-height: 33px;
+}
