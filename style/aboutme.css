@@ -34,8 +34,8 @@
 }
 
 .aboutme-content img {
-    width: 20%;
-    border-radius: 30%;
+    width: 23%;
+    object-fit:contain;
 }
 
 .aboutme-content h1 {
