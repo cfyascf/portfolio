@@ -7,6 +7,7 @@ navbuttons.forEach((button, index) => {
     button.addEventListener('click', function(event) {
         event.preventDefault();
         sections[index].scrollIntoView({behavior: 'smooth'});
+        this.classList.add('active');
     });
 });
 

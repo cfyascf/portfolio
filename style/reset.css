@@ -7,9 +7,19 @@
     padding: 0;
 }
 
-html {
-    scrollbar-width: thin;
+
+::-webkit-scrollbar {
+    width: 10px;
 }
+
+::-webkit-scrollbar-track {
+    background-color: #FD883D;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FAEFE6;
+}
+
 
 body {
     background-color: #FAEFE6;
