@@ -89,3 +89,20 @@
 .grid div a:hover {
     color: #FAEFE6;
 }
+
+@media (max-width: 768px) {
+    .codes-section {
+        padding: 80px;
+    }
+    .grid-title h1 {
+        font-size: 2.3rem;
+    }
+
+    .grid-title p {
+        font-size: 1.3rem;
+    }
+
+    .grid div {
+        width: 80%;
+    }
+}

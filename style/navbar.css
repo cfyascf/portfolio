@@ -62,3 +62,9 @@ nav div img {
     width: 3rem;
     margin-left: 30px;
 }
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+}

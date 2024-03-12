@@ -52,3 +52,17 @@
 .home-img-container img {
     width: 200px;
 }
+
+@media (max-width: 768px) {
+    .home-title h1 {
+        font-size: 3.5rem;
+    }
+
+    .home-img-container img {
+        width: 100px;
+    }
+
+    .home-title button {
+        width: 250px;
+    }
+}

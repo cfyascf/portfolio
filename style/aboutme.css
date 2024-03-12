@@ -66,3 +66,29 @@
     font-size: 1.5rem;
     line-height: 33px;
 }
+
+@media (max-width: 768px) {
+    .aboutme-section {
+        gap: 5px;
+    }
+    .aboutme-content h1 {
+        font-size: 2.8rem;
+    }
+
+    .aboutme-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutme-content div {
+        width: 100%;
+    }
+
+    .aboutme-content img {
+        width: 55%;
+    }
+
+    .aboutme-content img:hover {
+        width: 55%;
+    }
+}
