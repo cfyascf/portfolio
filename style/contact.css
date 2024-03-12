@@ -1,0 +1,86 @@
+.contact-section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact-img {
+    background-color: #D46BCA;
+
+    display: flex;
+    padding: 80px;
+    height: 100%;
+    width: 43rem;
+}
+
+.contact-img img {
+    width: 500px;
+    object-fit: cover;
+    align-self: flex-end;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px;
+}
+
+.contact-content h1 {
+    color: #D46BCA;
+    font-size: 4rem;
+    font-family: 'Unbounded', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 100px 100px 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.contact-grid img, .social-media img {
+    width: 40%;
+    transition: 0.3s;
+    /* object-fit: cover; */
+}
+
+/* .contact-grid img:hover, .social-media img:hover {
+    width: 47%;
+    /* object-fit: cover; */
+
+
+.contact-grid {
+    display: flex;
+    color: #553566;
+}
+
+.contact-grid div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.contact-grid div h3 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 1.3rem;
+}
+
+.contact-grid div a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #553566;
+}
+
+.title-media:hover ~ .media-img {
+    width: 47%;
+}
+
+.title-media {
+    order: 1;
+}
+

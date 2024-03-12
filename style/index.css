@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    min-height: 100vh;
     gap: 15%;
     padding: 100px;
 }
@@ -29,14 +29,15 @@
     font-size: 1.3rem;
     font-weight: 700;
 
-    width: 25%;
+    min-width: 25%;
     height: 50px;
     margin-top: 30px;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .home-title button:hover {
     background-color: #D46BCA;
+    transform: scale(1.1);
 }
 
 .home-img-container {

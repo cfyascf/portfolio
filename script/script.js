@@ -17,8 +17,7 @@ let button = document.querySelector('.homebtn');
 let contact_section = document.querySelector('.contact-section');
 
 button.addEventListener('click', () => {
-
-    contact_section.scrollIntoView({behavior: smooth})
+    contact_section.scrollIntoView({behavior: 'smooth'})
 });
 
 
