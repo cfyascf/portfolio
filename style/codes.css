@@ -41,13 +41,21 @@
 .grid div {
     background-color: #FD883D;
     border-radius: 40px;
+    text-align: center;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 27%;
     height: 100%;
     padding: 60px;
+    transition: 0.5s;
+}
+
+.grid div:hover {
+    width: 28%;
+    height: 108%;
 }
 
 .grid div img {
