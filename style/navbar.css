@@ -9,6 +9,7 @@ nav {
     min-height: 10vh;
     padding: 30px;
     gap: 60px;
+    z-index: 99;
 }
 
 nav ul {

@@ -53,6 +53,7 @@
     height: 100%;
     padding: 60px;
     transition: 0.5s;
+    z-index: 10;
 }
 
 .grid div:hover {
