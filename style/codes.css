@@ -36,7 +36,7 @@
     flex-wrap: wrap;
     gap: 70px;
     color: white;
-    min-height: 500px;
+    min-height: 530px;
 }
 
 .grid div {
@@ -50,7 +50,7 @@
     justify-content: center;
     min-width: 300px;
     width: 27%;
-    height: 100%;
+    min-height: 100%;
     padding: 60px;
     transition: 0.5s;
     z-index: 10;
@@ -79,6 +79,7 @@
 .grid div p {
     font-size: 1.2rem;
     margin-bottom: 40px;
+    text-align: justify;
 }
 
 .grid div a {
@@ -105,5 +106,36 @@
 
     .grid div {
         width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .grid-title {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-title h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .grid-title p {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .grid div {
+        padding: 35px;
+    }
+
+    .grid div h2 {
+        font-size: 1.5rem;
+    }
+
+    .grid div h3 {
+        font-size: 1.3rem;
     }
 }

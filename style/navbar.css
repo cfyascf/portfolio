@@ -69,3 +69,18 @@ nav div img {
         display: none;
     }
 }
+
+@media (max-width: 500px) {
+    nav div {
+        gap:20px;
+    }
+
+    nav div p {
+        font-size: 1rem;
+    }
+
+    nav div img {
+        width: 12%;
+        margin-left: 8px;
+    }
+}

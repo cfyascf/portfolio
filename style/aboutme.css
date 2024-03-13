@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     min-height: 100vh;
     gap: 50px;
-    padding: 55px;
+    padding: 100px 55px;
 }
 
 .aboutme-img-container {
@@ -28,7 +28,7 @@
 .aboutme-content {
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 100px;
     padding: 30px;
 }
 
@@ -67,7 +67,7 @@
     line-height: 33px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .aboutme-section {
         gap: 5px;
     }
@@ -90,5 +90,29 @@
 
     .aboutme-content img:hover {
         width: 55%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .aboutme-section {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutme-content {
+        width: 100%;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .aboutme-content h1 {
+        font-size: 2rem;
+    }
+
+    .aboutme-content p {
+        font-size: 1.2rem;
+        line-height: 27px;
+        text-align: justify;
+        margin: 0;
     }
 }

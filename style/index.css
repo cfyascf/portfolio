@@ -53,7 +53,7 @@
     width: 200px;
 }
 
-@media (max-width: 768px) {
+@media (min-width:501px) and (max-width: 768px) {
     .home-title h1 {
         font-size: 3.5rem;
     }
@@ -64,5 +64,39 @@
 
     .home-title button {
         width: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home-section {
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .home-title h1 {
+        font-size: 2.7rem;
+    }
+
+    .home-img-container {
+        flex-direction: row;
+    }
+
+    .home-img-container img {
+        width: 60px;
+    }
+
+    .home-title {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .home-title button {
+        width: 100%;
+        font-size: 1.2
+        rem;
     }
 }
